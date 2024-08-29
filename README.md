@@ -13,4 +13,4 @@ function mystery(a) {
     else return a[0];
 }
 ```
-The mystery function recursively removes the leading character of any string passed in until only the last letter in the string remains and then returns this letter.
+The mystery function recursively removes the leading character of any string passed in until only the last character in the string remains and then returns that character.
