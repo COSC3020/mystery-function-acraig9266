@@ -13,4 +13,4 @@ function mystery(a) {
     else return a[0];
 }
 ```
-The mystery function recursively removes the leading character of any string passed in until only the last character in the string remains and then returns that character. If the array contains numbers, it still recursively removes the value at index 0 until the array size is 1, except in the case that the value in index 0 is larger than any other individual value in the index, in which case it returns the value currently in index 0.
+The mystery function recursively searches for the largest value in the array/list by repeatedly removing the 0 index of the array. Once found, it will return the largest value within the array. 
